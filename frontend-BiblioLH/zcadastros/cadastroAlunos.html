@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Alunos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="../css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../listas/lista-alunos.html">ALUNOS</a>
+            <a href="../listas/lista-livros.html">LIVROS</a>
+            <a href="../listas/lista-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE ALUNO</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="nome">
+                NOME
+                <br>
+                <input type="text" name="input-nome-aluno" placeholder="Insira o nome do aluno" required>
+            </label>
+            <label for="sobrenome">
+                SOBRENOME
+                <br>
+                <input type="text" name="input-sobrenome-aluno" placeholder="insira o sobrenome do aluno" required>
+            </label>
+            <label for="ano de nascimento">
+                NASCIMENTO
+                <br>
+                <input type="text" name="input-ano-aluno" placeholder="insira o ano de nascimento do aluno" required>
+            </label>
+            <label for="endereço">
+                ENDEREÇO
+                <br>
+                <input type="text" name="input-endereço-aluno" placeholder="insira o endereço do aluno" required>
+            </label>
+            <label for="email">
+                EMAIL
+                <br>
+                <input type="text" name="input-email-aluno" placeholder="insira a email de aluno totais" required>
+            </label>
+            <label for="telefone celular">
+                CELULAR
+                <br>
+                <input type="text" name="input-email-disponivel-aluno" placeholder="insira email de livros disponiveis" required>
+            </label>
+            
+            <input type="button" value="CADASTRAR" onclick="enviarFormulario()"> 
+        </form>
+    </div>
+    <script src="../js/alunos.js"></script>
+</body>
+
+</html>
